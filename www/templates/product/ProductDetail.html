@@ -1,0 +1,67 @@
+<!--订单跟踪-->
+<ion-view class="background" title="商品详情" style="background: #fc8c84">
+
+    <ion-content scrollbar-y="false" style="background: #f8d5d8">
+        <!--轮播图-->
+        <div>
+            <ion-slide-box on-slide-changed="slideHasChanged($index)">
+                <ion-slide class="it-spanner">
+                    <div class="box blue"><h1>BLUE</h1></div>
+                </ion-slide>
+                <ion-slide class="it-spanner">
+                    <div class="box yellow"><h1>YELLOW</h1></div>
+                </ion-slide>
+                <ion-slide class="it-spanner">
+                    <div class="box pink"><h1>PINK</h1></div>
+                </ion-slide>
+            </ion-slide-box>
+        </div>
+        <!--shotCut-->
+        <div>
+        <span >海尔大冰箱</span>
+            <br>
+        <sapn>活动详情</sapn>
+        </div>
+        <!--hot-->
+        <div style="position: relative" >
+            <div>
+               <span>库存</span> <span>12</span>
+            </div>
+            <div  >
+                <span>+</span> <input type="text" value="1"style="text-align: center;width:20px;display: inline-block"><span>-</span>
+            </div>
+            <div style="position: absolute;right: 10px;top:0;" >
+                <div>抢单价格</div>
+
+                <div>￥1111</div>
+            </div>
+
+            <div class="row row-no-padding">
+                <div class="col">11</div>
+                <div class="col " style="text-align: center" >11</div>
+                <div class="col" style="text-align: right">11</div>
+            </div>
+            <div style="position: relative;margin-top: 10px;background: #00ff00">
+                <span>物流运输</span>
+                <div style="display: inline-block;position: absolute;right: 10px;top:0">go</div>
+            </div>
+            <div style="position: relative;margin-top: 10px;background: #00ff00">
+                <span>qw</span>
+                <div style="display: inline-block;position: absolute;right: 10px;top:0">go</div>
+            </div>
+            <div style="position: relative;margin-top: 10px;background: #00ff00">
+                <span>qwe</span>
+                <div style="display: inline-block;position: absolute;right: 10px;top:0">go</div>
+            </div>
+            <div style="position: relative;margin-top: 10px;background: #00ff00">
+                <span>www</span>
+                <div style="display: inline-block;position: absolute;right: 10px;top:0">go</div>
+            </div>
+        </div>
+    </ion-content>
+<ion-footer-bar>
+    <div>
+        <div></div>
+    </div>
+</ion-footer-bar>
+</ion-view>
